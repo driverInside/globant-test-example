@@ -1,0 +1,38 @@
+{
+  "name": "globant-test-example",
+  "version": "1.0.0",
+  "description": "Unit testing basic example for Globant NodeJS training lab. May21",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/driverInside/globant-test-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/driverInside/globant-test-example/issues"
+  },
+  "homepage": "https://github.com/driverInside/globant-test-example#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.13"
+  },
+  "devDependencies": {
+    "faker": "^5.5.3",
+    "jest": "^27.0.4",
+    "mongodb-memory-server": "^6.9.6",
+    "nodemon": "^2.0.7",
+    "standard": "^16.0.3",
+    "supertest": "^6.1.3"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  }
+}
